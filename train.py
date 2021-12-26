@@ -68,4 +68,4 @@ print('=' * 100)
 print("Prediction Accuracy: " + str(int(np.sum(labelpred == test_label) / labelpred.shape[0] * 100)) + " %")
 
 # Save Model
-bst.save_model('Models/best.model')
+bst.save_model('Models/XGBoost.model')
