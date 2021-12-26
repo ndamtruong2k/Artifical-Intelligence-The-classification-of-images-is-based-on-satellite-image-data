@@ -8,8 +8,6 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 
 # Configurations
-animation = ["[□□□□□□□□□□] 0%", "[■□□□□□□□□□] 10%", "[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%",
-             "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 70%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"]
 MAP_PATH = r'GEE-DEMO\LANDSAT8_4_7_band_new_Projec21.tif'
 AQUA = [77, 255, 195]
 BARREN = [102, 82, 0]
@@ -57,11 +55,6 @@ for i in tqdm(range(map_size[0]),desc='Progress:'):
         else:
             pred = bst.predict(dtest)
             result[i][j] = COLORS[int(pred)]
-        
-#        if j == map_size[1] - 1:
-#            sys.stdout.write("\r" + "Loading: {} / ".format((i+1)*(j+1)) + "{}".format(map_size[0]*map_size[1]) +
-#                            " | Total: " + animation[int((i+1)*(j+1)/(map_size[0]*map_size[1])*10)])
-#            sys.stdout.flush()
 
 # Export Result
 plt.imsave('Output/result_data.png', result)
