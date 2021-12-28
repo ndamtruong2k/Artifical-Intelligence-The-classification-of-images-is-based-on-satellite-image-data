@@ -5,7 +5,7 @@
 - #### Trịnh Ngọc Du 
 - #### Mai Tất Thắng 
 - #### Nguyễn Thanh Lâm
- #### Quá trình làm bài
+ ## Quá trình làm bài
  ##### -> Data được lấy ở Datasets
  ##### -> Datasets được chia ra 3 file: Train, Validation, Test. Sử dụng Code_chia_data.py
  ##### -> Code huấn luyện học máy được sử dụng ở Code_train.py
