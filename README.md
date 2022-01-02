@@ -5,6 +5,12 @@
 - #### Trịnh Ngọc Du 
 - #### Mai Tất Thắng 
 - #### Nguyễn Thanh Lâm
+## Công việc thực hiện:
+ - #### Nguyễn Đam Trường: Lấy mẫu ảnh, dữ liệu,đào tạo mô hình, viết slide, làm báo cáo tổng kết.
+ - #### Trịnh Ngọc Du: Lấy mẫu ảnh, kiểm tra dữ liệu, lấy mẫu dữ liệu.
+ - #### Mai Tất Thắng: Kiểm tra và lấy mẫu dữ liệu
+ - #### Nguyễn Thanh Lâm: Kiểm tra và lấy mẫu dữ liệu.
+
  ## Quá trình làm bài
  ##### -> Data được lấy ở Datasets
  ##### -> Datasets được chia ra 3 file: Train, Validation, Test. Sử dụng Code_chia_data.py
